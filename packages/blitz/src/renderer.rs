@@ -1,5 +1,5 @@
 mod multicolor_rounded_rect;
-mod render;
+pub mod render;
 
 use crate::devtools::Devtools;
 use blitz_dom::{Document, Viewport};

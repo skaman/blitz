@@ -112,7 +112,7 @@ impl<'dom> VelloSceneGenerator<'dom> {
     /// Make sure you do those before trying to render
     pub fn generate_vello_scene(&self, scene: &mut Scene) {
         // Simply render the document (the root element (note that this is not the same as the root node)))
-        scene.reset();
+        //scene.reset();
         self.render_element(
             scene,
             self.dom.as_ref().root_element().id,
